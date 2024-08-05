@@ -1,0 +1,5 @@
+n = int(input())
+if n >= 40:print(100)
+elif n > 20: print((n - 20) + 80)
+elif n > 10: print((n - 10) * 2 + 60)
+else: print(n * 6)
