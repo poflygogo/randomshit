@@ -39,6 +39,10 @@ def num_to_rome(num):
 
 
 while True:
+    """
+    當測資輸入到最後面的"#"時，其實是給了"#\r"
+    所以要用rstrip()方法將\r去掉
+    """
     rome = input().rstrip()
     if rome == '#':
         break
