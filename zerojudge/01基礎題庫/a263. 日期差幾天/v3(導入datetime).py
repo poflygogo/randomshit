@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 
 while True:
     try:
