@@ -6,7 +6,7 @@
 """
 num = int(input())
 
-if num == 0:
+if num == 2:
     print("prime number")
 else:
     for i in range(3, int(num ** 0.5) + 1, 2):
