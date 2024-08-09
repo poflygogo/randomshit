@@ -29,8 +29,8 @@ def cac_parallel(a1, b1, c1, a2, b2, c2):
         a2, b2, c2: 第二個方程式的係數 interger
     :return: 無解="No answer", 無限多解="Too many"
     """
-    line1_sum = sum(a1, b1, c1)
-    line2_sum = sum(a2, b2, c2)
+    line1_sum = sum((a1, b1, c1))
+    line2_sum = sum((a2, b2, c2))
     line1 = (a1 / line1_sum, b1 / line1_sum, c1 / line1_sum)
     line2 = (a2 / line2_sum, b2 / line2_sum, c2 / line2_sum)
     if line1 == line2:
