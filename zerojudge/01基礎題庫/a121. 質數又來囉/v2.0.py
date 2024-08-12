@@ -5,7 +5,7 @@ prime_num = (2, 3, 5, 7, 11, 13, 17, 19, 23,
              61, 67, 71, 73, 79, 83, 89, 97)
 
 def prime_num_check(num):
-  """檢查是否是質數"""
+    """檢查是否是質數"""
     if num <= 100:
         return CheckLess1e2(num)
     elif num <= 10000:
@@ -13,7 +13,7 @@ def prime_num_check(num):
     else:return CheckMore1e4(num)
 
 def CheckLess1e2(num):
-  """檢查100內的數字是否在質數表內"""
+    """檢查100內的數字是否在質數表內"""
     for i in prime_num:
         if num == i:
             return True
@@ -24,7 +24,7 @@ def CheckLess1e2(num):
         return False
 
 def CheckLess1e4(num):
-  """檢查10000內的數字是否能被100內的質數整除"""
+    """檢查10000內的數字是否能被100內的質數整除"""
     for i in prime_num:
         if num % i == 0:
             return False
@@ -32,7 +32,7 @@ def CheckLess1e4(num):
         return True
 
 def CheckMore1e4(num):
-  """檢查是否能被6n+1或6n-1的數字整除"""
+    """檢查是否能被6n+1或6n-1的數字整除"""
     if CheckLess1e4(num) == False:
         return False
     else:
