@@ -1,0 +1,5 @@
+a, b, c = map(lambda n: int(n) if n.isdigit() else n, input().split())
+if b == "+": print(a + c)
+elif b == "-": print(a - c)
+elif b == "*": print(a * c)
+else: print(a // c)
