@@ -8,7 +8,7 @@ gist連結[點我](https://gist.github.com/poflygogo/313e6ed4ceae7ef733d0fa7b788
 gist連結[點我](https://gist.github.com/poflygogo/c34c6112e2abf9dd971a3f0ac194f4e7)
 
 ## v8 對，我瘋了
-這個就不開gist了，大意就是直接建一個質數表，複製貼上的那種，但最後還是TLE，不過倒是確認問題不是出在質數表，而是其他地方。
+大意就是直接建一個質數表，複製貼上的那種，但最後還是TLE，不過倒是確認問題不是出在質數表，而是判斷大於10000數是否為質數的部分有問題。
 
 # 題目
 給定2個數字a, b(1<=a<=b<=100000000)，並保證b-a<=1000 
