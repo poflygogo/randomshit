@@ -5,4 +5,4 @@
 gist連結[點我](https://gist.github.com/poflygogo/313e6ed4ceae7ef733d0fa7b78808228)
 
 ## v3, v5 線性篩法系列
-gist連結[點我](google.com)
+gist連結[點我](https://gist.github.com/poflygogo/c34c6112e2abf9dd971a3f0ac194f4e7)
