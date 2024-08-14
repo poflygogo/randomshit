@@ -36,8 +36,8 @@ while True:
             a2 = a + 5 - a % 6
             result += sum(1 for num in range(a1, 10000, 6) if num in primes)
             result += sum(1 for num in range(a2, 10000, 6) if num in primes)
-            result += sum(1 for num in range(10003, b + 1, 6) if check_prime(num))
-            result += sum(1 for num in range(10001, b + 1, 6) if check_prime(num)) 
+            result += sum(1 for num in range(10003, b + 1, 6) if check_prime(num))  # 10003是1e4後第一個滿足6n+1的數
+            result += sum(1 for num in range(10001, b + 1, 6) if check_prime(num))  # 10001是1e4後第一個滿足6n-1的數
 
         # a 和 b 都大於 1e4, 從 a 開始處理，到 b 結束
         else:
