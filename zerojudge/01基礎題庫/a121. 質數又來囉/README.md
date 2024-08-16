@@ -4,7 +4,7 @@
 ## v1, v2, v4 暴力解系列
 gist連結[點我](https://gist.github.com/poflygogo/313e6ed4ceae7ef733d0fa7b78808228)
 
-## v3, v5, v6, v7, v9 查表系列
+## v3, v5, v6, v7, v9 v11 查表系列
 gist連結[點我](https://gist.github.com/poflygogo/c34c6112e2abf9dd971a3f0ac194f4e7)
 
 ## v8 對，我瘋了
