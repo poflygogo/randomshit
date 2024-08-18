@@ -6,7 +6,6 @@ def count_nAnB(ans:str, guess:list) -> int:
             nA += 1
             guess[i] = None
             ans[i] = None
-
     nB = 0
     for num in guess:
         if num != None and num in ans:
