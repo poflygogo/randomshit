@@ -10,6 +10,9 @@ def check_blocks(matrix:list):
     matrix = matrix.copy()
     length = len(matrix)
 
+    count = 0
     for row in range(length):
         for column in range(length):
+            if matrix[row][column] == 1:
+                if 
             pass
