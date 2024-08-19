@@ -2,4 +2,4 @@ length = int(input())
 card = input().split()
 cut = int(input())
 
-print(card)
+print(*card[cut:],*card[:cut])
