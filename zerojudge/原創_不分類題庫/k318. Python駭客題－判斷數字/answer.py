@@ -1,0 +1,1 @@
+print('Bob\n౪౫', end='')
