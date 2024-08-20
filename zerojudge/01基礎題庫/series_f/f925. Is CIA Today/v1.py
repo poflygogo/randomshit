@@ -1,0 +1,1 @@
+print('Yes' if input().split() == ['6', '12'] else 'No')

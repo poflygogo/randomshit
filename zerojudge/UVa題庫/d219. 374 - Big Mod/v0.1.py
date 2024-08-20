@@ -10,4 +10,4 @@ for line in stdin:
     P = int(stdin.readline().strip())
     M = int(stdin.readline().strip())
 
-    print(B**P % M)
+    print(B ** P % M)
