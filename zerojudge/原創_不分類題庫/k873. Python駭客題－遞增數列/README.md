@@ -145,7 +145,7 @@ Got you!
 大概是下面這樣:
 ![alt text](image-1.png)
 
-### 會被視為是`False`的值
+### 會被視為是`Falsy`的值
 
 除了False外，其他都是Falsy
 
@@ -163,6 +163,8 @@ Got you!
 Truthy的值包含
 - 非空序列或集合(列表list, 元祖tuple, 字符串string, 字典dict, 集合set)
 - 不為0的數值(Numeric values that are not zero)
+
+說人話就是不管放什麼進去，只要不在`Falsy`名單內的都是`Truthy`
 
 ### `bool()`函數
 我們可以透過內建函數`bool()`取得任意物件的 **bool 值**，並返回`True`或`False`，例如:
