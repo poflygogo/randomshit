@@ -1,0 +1,1 @@
+print(round(float(input()) / (float(input()) ** 2), 1))

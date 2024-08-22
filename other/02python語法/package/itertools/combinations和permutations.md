@@ -16,10 +16,23 @@ itertools.permutations(iterable, r)
 ## 功能與比較
 
 ||`combinations`|`permutations`|
-|-|-|-|
-|功能|生成所有可能的排列組合，每個排列組合都是一個元組。|
-|重複元素| 每個排列組合中的元素都是唯一的，不會出現重複| 每個排列組合中的元素都是唯一的，不會出現重複|
+|:-:|:-|:-|
+|功能|生成所有可能的排列組合，每個排列組合都是一個元組|生成所有可能的排列組合，每個排列組合都是一個元組|
+|重複元素| 每個排列組合中的元素都是唯一的，不會出現重複<br>**考慮元素的順序**，即 AB 和 BA 是不同的排列| 每個排列組合中的元素都是唯一的，不會出現重複<br>**不考慮元素的順序**，即 AB 和 BA 被視為相同的組合|
 |有序|排列組合是按照字典序生成的|排列組合是按照字典序生成的|
+
+## 應用場景
+- 全排列問題： 許多算法問題需要生成所有可能的排列，例如：
+    - 破解密碼
+    - 找尋最優解
+    - 產生隨機序列
+- 組合數學： 在組合數學中，排列是基礎概念之一。
+- 遊戲開發： 在遊戲開發中，可以用來生成各種排列組合，例如洗牌、生成隨機地圖等。
+
+## 習題
+- [i645. 排列組合-組合](https://zerojudge.tw/ShowProblem?problemid=i645) | [Zero Judge](https://zerojudge.tw/)
+- [e446. 排列生成](https://zerojudge.tw/ShowProblem?problemid=e446) | [Zero Judge](https://zerojudge.tw/)
+- [a524. 手機之謎](https://zerojudge.tw/ShowProblem?problemid=a524) | [Zero Judge](https://zerojudge.tw/)
 
 ## 參考資料
 - [itertools — Functions creating iterators for efficient looping](https://docs.python.org/3.12/library/itertools.html#itertools.combinations) | [Python 3.12.5 documentation](https://docs.python.org/3.12/) 2024-08-22 [2024-08-22]

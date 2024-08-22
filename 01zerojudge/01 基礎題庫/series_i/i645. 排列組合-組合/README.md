@@ -1,0 +1,3 @@
+## 解題紀錄
+### v1 AC (19ms, 3.5MB)
+使用 itertools 的[東西](../../../../other/02python語法/package/itertools/combinations和permutations.md)解決，感覺沒學到東西...
