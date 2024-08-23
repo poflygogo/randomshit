@@ -69,6 +69,8 @@
 
 套回去前面的最終結果 $n + tw$，可得答案應為 $n + w(\frac{n-k}{k-w}+1)$
 
+## 類題
+- [b860. 獨角蟲進化計算器](https://zerojudge.tw/ShowProblem?problemid=b860) | [zerojudge](https://zerojudge.tw/)
 
 ## 解題紀錄
 v1 AC (18ms, 3.3MB)
