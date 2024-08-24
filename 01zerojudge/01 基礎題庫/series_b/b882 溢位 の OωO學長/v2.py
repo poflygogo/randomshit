@@ -1,0 +1,6 @@
+hr, mi, sec = map(int, input().split())
+
+# 86400 = 60 * 60 * 24
+sec = (hr * 3600 + mi * 60 + sec) % 86400
+
+print(f'{sec//3600:2d}:{sec // 60 % 60:2d}:{sec % 60:2d}')
