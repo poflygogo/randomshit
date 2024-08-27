@@ -1,3 +1,9 @@
+## 類題
+- [a291. nAnB problem](https://zerojudge.tw/ShowProblem?problemid=a291) | [zerojudge](https://zerojudge.tw/)
+- [c276. 沒有手機的下課時間](https://zerojudge.tw/ShowProblem?problemid=c276) | [zerojudge](https://zerojudge.tw/)
+
+
+## 解題紀錄
 ### v0.1
 - 測試時出現錯誤答案，因為沒有考慮到重複計算的部分(如果A和B有重複的數字時，不會排除A)
 - 因為還沒正式上場前就在測試時失敗，所以是v0.1
