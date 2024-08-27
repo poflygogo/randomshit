@@ -26,3 +26,7 @@
     - 這樣我才不需要一直 alt + tab......
 - Notion
     - 用於整理筆記
+
+## link
+- zerojudge
+- leetcode
