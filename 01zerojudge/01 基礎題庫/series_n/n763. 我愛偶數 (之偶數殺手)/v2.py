@@ -1,4 +1,4 @@
-from _collections import deque
+from collections import deque
 
 def odd_killer(num_list):
     queue = deque(num_list)
