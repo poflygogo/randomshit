@@ -3,6 +3,7 @@
 - [f698. 後序運算式求值](https://zerojudge.tw/ShowProblem?problemid=f698)(先備知識)
 - [f377. 運算式轉換](https://zerojudge.tw/ShowProblem?problemid=f377)(先備知識)
 - [a017. 五則運算](https://zerojudge.tw/ShowProblem?problemid=a017)(大魔王)
+- [a664. 四則運算](https://zerojudge.tw/ShowProblem?problemid=a664)(新的挑戰)
 
 ## 思路
 
