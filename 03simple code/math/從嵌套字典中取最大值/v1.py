@@ -8,4 +8,4 @@ student = {
     "Alex":{"English":83,"Math":69,"Science":75}}
 
 max_student = max(student, key=lambda x: sum(student[x].values()))
-print("max_student")
+print(max_student)
