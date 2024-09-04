@@ -1,0 +1,6 @@
+_ = input()
+data = input().split()
+data = list(set(data))
+data.sort(key= int)
+print(len(data))
+print(*data)

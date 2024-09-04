@@ -29,4 +29,8 @@
 
 ## link
 - zerojudge
+  - 連結: https://zerojudge.tw/
+  - 已解題目: 不知道，反正 zerojudge 說 218 題 (2024-09-04)
 - leetcode
+  - 連結: https://leetcode.com/
+  - 已解題目: 5 (2024-09-04)
