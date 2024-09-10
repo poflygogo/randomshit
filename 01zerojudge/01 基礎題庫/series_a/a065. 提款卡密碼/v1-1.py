@@ -1,5 +1,5 @@
 code = input()
-password =''
+password = ''
 length = len(code)
 code_ascii = tuple(ord(i) for i in code)
 for i in range(length-1):

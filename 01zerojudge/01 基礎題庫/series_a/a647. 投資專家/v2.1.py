@@ -7,6 +7,6 @@ for _ in range(int(input())):
         result -= 0.00001
 
     print(
-        f'{result :2.2f}%',
+        f'{result:2.2f}%',
         'dispose' if result >= 10 or result <= -7 else 'keep'
     )

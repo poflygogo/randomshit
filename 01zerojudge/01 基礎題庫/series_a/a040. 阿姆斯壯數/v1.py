@@ -1,6 +1,6 @@
 arm_num_list = []
-a, b = map(int,input().split())
-for i in range(a,b+1):
+a, b = map(int, input().split())
+for i in range(a, b+1):
     i_str = str(i)
     i_length = len(i_str)
     check = 0

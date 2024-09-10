@@ -1,7 +1,7 @@
 square_num = []
 check = 0
 
-# zerojudge的python版本較舊，不會這一行，但新版本python沒問題
+# zerojudge 的 python 版本較舊，不會這一行，但新版本python沒問題
 while (n := check**2) <= 1e3:
     square_num.append(n)
     check += 1
