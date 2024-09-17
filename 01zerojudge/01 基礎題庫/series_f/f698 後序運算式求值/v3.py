@@ -1,6 +1,7 @@
 from sys import stdin, stdout
 from collections import deque
 
+
 def operate(operator:str, num1:int, num2:int):
     if operator == '+':
         return num2 + num1
@@ -10,7 +11,8 @@ def operate(operator:str, num1:int, num2:int):
         return num2 * num1
     if operator == '/':
         return num2 / num1
-    
+
+
 data = stdin.readline().strip().split()
 
 stack = deque()

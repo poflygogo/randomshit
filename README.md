@@ -21,7 +21,11 @@
 - GBD online
 - Gist
 - ideone
+- [Online Compiler, Visual Debugger, and AI Tutor for Python, Java, C, C++, and JavaScript](https://pythontutor.com/)
+
 > 特別推薦 GBD online 和 ideone，可以用來輸入多筆資料，不需要透過終端機一行一行慢慢輸入
+
+> Online Compiler 可以用視覺化的方式查看程式執行狀態，很適合用來 debug 或那些檢視看不懂的程式
 
 ### 其他
 - draw.io-24.7.5

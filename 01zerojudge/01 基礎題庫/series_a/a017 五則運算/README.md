@@ -15,6 +15,7 @@
 - [f377. 運算式轉換](https://zerojudge.tw/ShowProblem?problemid=f377)(先備知識)
 - [a017. 五則運算](https://zerojudge.tw/ShowProblem?problemid=a017)(大魔王)
 - [a664. 四則運算](https://zerojudge.tw/ShowProblem?problemid=a664)(新的挑戰)
+- [f640. 函數運算式求值](https://zerojudge.tw/ShowProblem?problemid=f640)(前序運算式_進階版)
 
 ## 解題紀錄
 ### v0.1 RF
