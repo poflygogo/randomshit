@@ -6,5 +6,5 @@ while True:
     except EOFError:
         break
     
-    result = max(data, key= lambda x: x[1])
+    result = max(data, key=lambda x: x[1])
     print(*result)
