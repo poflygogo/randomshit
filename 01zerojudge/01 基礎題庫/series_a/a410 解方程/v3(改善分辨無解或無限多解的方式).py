@@ -6,6 +6,7 @@ ax + by = c
 dx + ey = f
 """
 
+
 def cac_linearEquations(a1, b1, c1, a2, b2, c2):
     """
     解二元一次聯立方程式
@@ -16,10 +17,11 @@ def cac_linearEquations(a1, b1, c1, a2, b2, c2):
     """
     _denominator = a1 * b2 - a2 * b1
     if _denominator == 0:
-        return False     # 無解或無限多解
+        return False  # 無解或無限多解
     x = (c1 * b2 - c2 * b1) / _denominator
     y = (a1 * c2 - a2 * c1) / _denominator
     return x, y
+
 
 def cac_parallel(a1, b1, c1, a2, b2, c2):
     """
@@ -37,10 +39,9 @@ def cac_parallel(a1, b1, c1, a2, b2, c2):
         return "No answer"
 
 
-
 a1, b1, c1, a2, b2, c2 = map(int, input().split())
 ans = cac_linearEquations(a1, b1, c1, a2, b2, c2)
-if ans == False:
+if not ans:
     print(cac_parallel(a1, b1, c1, a2, b2, c2))
 else:
     print(f"x={ans[0]:.2f}\ny={ans[1]:.2f}")

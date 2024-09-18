@@ -6,6 +6,8 @@ for line in stdin:
     if not line:
         continue
 
-    for i in sorted(permutations([str(i) for i in range(1, int(line) + 1)]), reverse=True):
-        result =''.join(i)
+    for i in sorted(
+            permutations([str(i) for i in range(1, int(line) + 1)]),
+            reverse=True):
+        result = ''.join(i)
         stdout.write(result + '\n')

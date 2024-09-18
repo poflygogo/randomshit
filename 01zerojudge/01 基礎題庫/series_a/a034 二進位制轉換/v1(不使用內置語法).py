@@ -1,7 +1,7 @@
 while True:
     try:
         num_in = int(input())
-    except:
+    except Exception:
         break
     num_out = ''
     while num_in != 0:
