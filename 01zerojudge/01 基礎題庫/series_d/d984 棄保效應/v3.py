@@ -6,7 +6,7 @@ while True:
         break
 
     # 將候選人資料做成嵌套list, 然後根據每組數據的第二的數據做排序
-    candidate = [(a,'A'), (b,'B'), (c,'C')]
+    candidate = [(a, 'A'), (b, 'B'), (c, 'C')]
     candidate.sort()
 
     # 邏輯判斷
