@@ -1,3 +1,5 @@
+> If you only do what you can do, you will never be more than who you are.
+
 ## 簡介
 自學 python 中，這裡存放一些我學習過程中寫出來的東西
 
