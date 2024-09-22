@@ -1,0 +1,15 @@
+[原創/不分類題庫]
+b397. 找出最長共同子序列
+b478. 有限間距最長共同子序列
+
+[競賽題庫]
+b839. 104北二3.朋友
+
+[UVa]
+a133. 10066 - The Twin Towers
+a676. 00111 - History Grading
+c001. 10405 - Longest Common Subsequence
+d674. 10192 - Vacation
+
+[IOI/APCS]
+i402. 4. 內積
