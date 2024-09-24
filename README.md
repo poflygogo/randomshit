@@ -10,7 +10,9 @@
 ### IDE
 - PyCharm Community Edition 2024.1.4
 - Visual Studio Code
-> 都很好用，寫 python 時 pycharm 特別好寫，但如果要編輯、預覽 markdown 文檔時，VScode比較有優勢，同時 vscode 也比較不吃資源(但功能相較於pycharm 就比較少)
+> 都很好用，寫 python 時 pycharm 特別好寫，因為 pycharm 在 code 補全的功能做很不錯，同時會幫忙檢視 code 是否符合 pep8 規範，以及 code 是否能再簡化
+
+> 但如果要編輯、預覽 markdown 文檔時，VScode 比較有優勢，同時 vscode 也比較不吃資源(但功能相較於pycharm 就比較少)
 
 > 除了閱讀執行錯誤時返回的 error 類型，也可以利用 IDE 自帶的 debug 模式，可以做到逐行檢視的效果(這功能 pycharm 比較強大)
 
