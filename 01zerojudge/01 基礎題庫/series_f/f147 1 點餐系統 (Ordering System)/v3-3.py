@@ -1,0 +1,40 @@
+from sys import stdin
+
+
+total = 0
+for command in stdin:
+    command = int(command)
+    if command == 0: break
+    id = int(next(stdin))
+
+    if command == 1:
+        if id == 1:
+            print('Medium Wac 4')
+            total += 4
+        elif id == 2:
+            print('WChicken Nugget 8')
+            total += 8
+        elif id == 3:
+            print('Geez Burger 7')
+            total += 7
+        elif id == 4:
+            print('ButtMilk Crispy Chicken 6')
+            total += 6
+        else:
+            print('Plastic Toy 3')
+            total += 3
+    elif id == 1:
+        print('German Fries 2')
+        total += 2
+    elif id == 2:
+        print('Durian Slices 3')
+        total += 3
+    elif id == 3:
+        print('WcFurry 5')
+        total += 5
+    else:
+        print('Chocolate Sunday 7')
+        total += 7
+        
+
+print(f'Total: {total}')
