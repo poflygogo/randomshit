@@ -1,3 +1,8 @@
+> 為什麼不會動?<br>
+> 為什麼會動?<br>
+> 為什麼會這樣動?<br>
+> 為什麼這樣寫?
+
 > If you only do what you can do, you will never be more than who you are.
 
 ## 簡介
