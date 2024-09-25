@@ -1,5 +1,6 @@
 import itertools
 
+
 while True:
     try:
         data = [(i, len(tuple(j))) for i, j in itertools.groupby(input())]
