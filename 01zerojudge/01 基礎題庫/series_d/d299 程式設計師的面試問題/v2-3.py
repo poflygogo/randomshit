@@ -1,9 +1,9 @@
 from itertools import permutations
-from collections import ChainMap
+from collections import ChainMap            # ChainMap 用來合併 dict，但其實也可以用 dict.update()，甚至不合併(我覺得可讀性較差)
 
 
-default = {'N': 0, 'E': 5, 'O': 9, 'I': 1}
-char = ['F', 'R', 'T', 'Y', 'S', 'X']
+default = {'N': 0, 'E': 5, 'O': 9, 'I': 1}  # 很明顯的答案，就直接設固定的值
+char = ['F', 'R', 'T', 'Y', 'S', 'X']       # 這樣就從 10! 種狀況減少到 6! 種
 for i in permutations(char):
     ans = ChainMap(default, {i:j for i, j in zip(i, (2, 3, 4, 6, 7, 8))})
     if ans['F'] + 1 != ans['S'] or \
