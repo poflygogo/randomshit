@@ -20,6 +20,7 @@ $$\begin{matrix}
 若 $O = 8$，則 $I$ 必然等於 0，因為三個個位數之和最大就是到37而已，最多進 2。
 
 不過 $I = 0$ 的話，將會導致 $N$ 和 $E$ 沒有足夠數字可以配對(他倆至少有一個是0)，所以:
+
 $$\left\{\begin{matrix}
 O\ne 8 \\
 I\ne 0
@@ -39,7 +40,9 @@ $$\begin{matrix}
 & S & 1 & X & T & Y\\
 \end{matrix}$$
 
-這裡我們獲得了一個新線索，先記著就好：$$R+2T = 20 + X$$
+這裡我們獲得了一個新線索，先記著就好：
+
+$$R+2T = 20 + X$$
 
 繼續觀察算式，可以注意到......
 $$\left\{\begin{matrix}
@@ -124,10 +127,12 @@ $$\begin{matrix}
 
 $F和S$必然是連續的正整數，這裡只剩下一種可能了
 
-$$\left\{\begin{matrix}
+$$
+\left\{\begin{matrix}
 F=2 \\
 S=3
-\end{matrix}\right.$$
+\end{matrix}\right.
+$$
 
 把結果代進去
 
