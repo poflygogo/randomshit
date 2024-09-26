@@ -6,6 +6,8 @@ default = {'N': 0, 'E': 5, 'O': 9, 'I': 1}  # 很明顯的答案，就直接設�
 char = ['F', 'R', 'T', 'Y', 'S', 'X']       # 這樣就從 10! 種狀況減少到 6! 種
 for i in permutations(char):
     ans = ChainMap(default, {i:j for i, j in zip(i, (2, 3, 4, 6, 7, 8))})
+
+    # 這邊看不懂的話去看 README，都寫在那邊了
     if ans['F'] + 1 != ans['S'] or \
         (ans['R'] + ans['T'] * 2 + 1) % 10 != ans['X']:
         continue
