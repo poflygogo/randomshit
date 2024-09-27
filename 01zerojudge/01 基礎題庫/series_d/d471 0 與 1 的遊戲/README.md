@@ -38,6 +38,9 @@ SyntaxError: invalid token
 - 修正語法錯誤
 > 原來不是版本問題，是我的問題
 
+### v1-6 AC(43ms, 3.5MB)
+- 使用位運算求 2 的平方數
+
 ### v2-1 AC(0.1s, 8MB)
 - 導入 itertools.product
 
