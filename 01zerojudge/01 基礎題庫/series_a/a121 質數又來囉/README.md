@@ -20,6 +20,9 @@ gist連結[點我](https://gist.github.com/poflygogo/c34c6112e2abf9dd971a3f0ac19
 ## v12 AC(7.1s, 3.3MB)
 - 推倒高牆，一切重來，回到暴力判斷質數，不建質數表了
 
+## v13 AC(1.3s, 4.6MB)
+- 學了 Miller-Rabin ，再次挑戰
+
 # 題目
 給定2個數字a, b(1<=a<=b<=100000000)，並保證b-a<=1000 
 
