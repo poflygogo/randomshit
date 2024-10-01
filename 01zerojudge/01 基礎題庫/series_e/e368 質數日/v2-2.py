@@ -5,7 +5,7 @@ import random
 
 
 def is_prime(n: int, k: int = 3):
-    if n in (3, 7, 13, 17, 23, 29):
+    if n in (3, 7, 13, 17, 23):
         return True
 
     """Miller-Rabin"""
@@ -42,9 +42,11 @@ def is_possible_prime(n, a, s, d):
 
 for year in range(2000, 3000):
     for month in range(1, 13):
-        for day in (3, 7, 13, 17, 23, 29):
+        for day in (3, 7, 13, 17, 23):
             date = str(year) + str(month).zfill(2) + str(day).zfill(2)
             for i in range(8):
+                if date[i] == '0':
+                    continue
                 if not is_prime(int(date[i:])):
                     break
             else:
