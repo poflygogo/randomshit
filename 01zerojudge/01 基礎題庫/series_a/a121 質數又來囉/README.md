@@ -23,6 +23,9 @@ gist連結[點我](https://gist.github.com/poflygogo/c34c6112e2abf9dd971a3f0ac19
 ## v13 AC(1.3s, 4.6MB)
 - 學了 Miller-Rabin ，再次挑戰
 
+## v14 AC(1.2s, 4.6MB)
+- 將米勒拉賓扁平化
+
 # 題目
 給定2個數字a, b(1<=a<=b<=100000000)，並保證b-a<=1000 
 
