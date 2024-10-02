@@ -13,6 +13,9 @@ class Problem:
     def judge(self, user_answer):
         return user_answer.rstrip() == self.answer
 
+    def problem_type(self):
+        return self.type
+
 
 class Choice(Problem):
     def __init__(self, des, ans, choice, problem_type='choice'):
