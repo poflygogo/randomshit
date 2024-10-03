@@ -1,10 +1,3 @@
-> 為什麼不會動?<br>
-> 為什麼會動?<br>
-> 為什麼會這樣動?<br>
-> 為什麼這樣寫?
-
-> If you only do what you can do, you will never be more than who you are.
-
 ## 簡介
 自學 python 中，這裡存放一些我學習過程中寫出來的東西
 
@@ -49,3 +42,6 @@
   - 連結: https://zerojudge.tw/
 - leetcode
   - 連結: https://leetcode.com/
+
+## murmur
+我什麼時候才能學會 dp 呢......還有 greedy、tree......好想學會阿
