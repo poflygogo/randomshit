@@ -1,4 +1,4 @@
-def binary_search(target: object) -> int:
+def binary_search(target: int) -> int:
     lft, rgt = 0, length - 1
 
     while lft <= rgt:
