@@ -11,6 +11,7 @@
 
 - NOI
   - National Olympiad in Informatics 全國青少年信息學奧林匹克競賽
+    - 主要是大陸那邊
   - NOIP
     - National Olympiad in Informatics in Provinces
 
