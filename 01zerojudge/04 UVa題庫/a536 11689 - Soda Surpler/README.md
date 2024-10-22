@@ -6,3 +6,7 @@
 能兌換 s // c 瓶汽水，剩下 s % c 個空瓶
 
 s // c 瓶汽水喝掉後，總共會有 s % c + s // c 個空瓶，進入下次循環
+
+
+## reference
+[空瓶換酒](https://blog.csdn.net/paschen/article/details/79840114)
