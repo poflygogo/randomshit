@@ -1,3 +1,7 @@
+# -*- coding:utf-8 -*-
+# python 3.6
+# 2024-10-26
+
 from sys import stdin
 
 
