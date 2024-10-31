@@ -40,7 +40,7 @@
 ## link
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 417 題
+  - 目前 AC 478 題
 - leetcode
   - 連結: https://leetcode.com/
 
