@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# python 3.12
 # UVa 11461 Square Numbers
 # Zerojudge d186
 
