@@ -2,6 +2,8 @@
 # python 3.12
 # UVa 10235 Simply Emirp
 # ZeroJudge d387
+# 
+# 題目的範圍很大，一般的輪式篩法不夠快，需要用更快的質數判定法
 
 import random
 
