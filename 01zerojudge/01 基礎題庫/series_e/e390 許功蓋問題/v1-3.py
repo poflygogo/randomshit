@@ -17,5 +17,3 @@ while True:
             'Yes' if len(text_big5.hex()) > 2 and  text_big5.hex()[-2:] == '5c' else
             'No'
         )
-
-        print(text_big5)
