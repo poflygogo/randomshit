@@ -12,7 +12,7 @@ while True:
             student_course[course] = 1
 
     student_course_total = tuple(student_course.values())
-    mostpopular = max(student_course_total)
-    A = student_course_total.count(mostpopular)
+    most_popular = max(student_course_total)
+    A = student_course_total.count(most_popular)
 
-    print(mostpopular * A)
+    print(most_popular * A)
