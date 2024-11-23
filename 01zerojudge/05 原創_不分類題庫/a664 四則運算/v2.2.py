@@ -7,7 +7,7 @@ weight = {
     '(':3
 }
 
-caculate = {
+calculate = {
     '+': int.__add__,
     '-': int.__rsub__,
     '*': int.__mul__,
