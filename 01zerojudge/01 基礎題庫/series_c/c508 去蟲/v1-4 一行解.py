@@ -1,0 +1,1 @@
+(lambda _, x: print(' '.join(sorted(x.split(), key=int)), ' '.join(sorted(set(x.split()), key=int, reverse=True)), sep='\n'))(input(), input())
