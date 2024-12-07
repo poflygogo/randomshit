@@ -40,9 +40,6 @@
 ## link
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 545 題 (請叫我水題王)
+  - 目前 AC 611 題 (請叫我水題王)
 - leetcode
   - 連結: https://leetcode.com/
-
-## murmur
-我什麼時候才能學會 dp 呢......還有 greedy、tree......好想學會阿
