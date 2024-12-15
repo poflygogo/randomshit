@@ -74,7 +74,10 @@ def get_free_times(times: list) -> list:
 
 def get_ans(times: list) -> tuple:
     time, duration = max(times, key=lambda x: (x[1], -x[0]))
-    return f'{time // 60}:{time % 60:02d}', str(duration) if duration < 60 else f'{duration // 60} hours and {duration % 60}'
+    return (
+        f'{time // 60}:{time % 60:02d}',
+        str(duration) if duration < 60 else f'{duration // 60} hours and {duration % 60}'
+    )
 
 
 mainloop()
