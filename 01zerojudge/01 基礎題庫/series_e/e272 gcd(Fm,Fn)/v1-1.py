@@ -17,7 +17,7 @@ def main():
 def create_fib_list(max_limit=93) -> list:
     # 題目表明最終答案不會超過 unsigned long long int 的範圍
     # 也就是答案會小於 2^64
-    # 故只需生成到第 93 個即可
+    # 故只需生成到第 93 個即可(第 94 個會超過 long long int)
     fib = [0] * max_limit
     fib[0] = fib[1] = 1
     for i in range(2, max_limit):
