@@ -21,6 +21,7 @@ def partition(arr, left, right):
 
 
 if __name__ == '__main__':
-    my_arr = [10, 7, 8, 9, 1, 5]
+    # my_arr = [10, 7, 8, 9, 1, 5]
+    my_arr = [-2, 3, -5]
     quick_sort(my_arr, 0, len(my_arr) - 1)
     print(my_arr)
