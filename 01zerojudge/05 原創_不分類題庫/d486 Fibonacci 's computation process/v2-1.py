@@ -14,7 +14,7 @@ def fibonacci(n: int) -> int:
 
 
 def gen_fib_tree(nums: list):
-    print(' '.join([f'f({i})' for i in nums]))
+    print(' '.join(f'f({i})' for i in nums))
     if all(i < 2 for i in nums):
         return
     temp = []
