@@ -1,3 +1,8 @@
+# -*- encoding: utf-8 -*-
+# python 3.12
+# ZeroJudge a693. 吞食天地
+
+
 n, m = map(int, input().split())
 
 food_data = tuple(map(int, input().split()))

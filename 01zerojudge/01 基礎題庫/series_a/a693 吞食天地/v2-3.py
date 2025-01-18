@@ -1,4 +1,11 @@
+# -*- encoding: utf-8 -*-
+# python 3.12
+# ZeroJudge a693. 吞食天地
+
+
 from itertools import accumulate
+
+
 while True:
     try:
         n, m = map(int, input().split())

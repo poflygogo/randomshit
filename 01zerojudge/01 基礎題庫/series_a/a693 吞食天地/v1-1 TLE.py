@@ -1,3 +1,8 @@
+# -*- encoding: utf-8 -*-
+# python 3.12
+# ZeroJudge a693. 吞食天地
+
+
 # n代表有幾種食物, m代表有幾組測資
 n, m = map(int, input().split())
 
