@@ -1,5 +1,5 @@
 ## 簡介
-自學 python 中，這裡存放一些我學習過程中寫出來的東西
+從零開始自學 python 中，這裡存放一些我學習過程中寫出來的東西
 
 ## 使用的工具
 
@@ -44,6 +44,6 @@
 ## link
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 750 題 (請叫我水題王)
+  - 目前 AC 755 題 (請叫我水題王)
 - leetcode
   - 連結: https://leetcode.com/
