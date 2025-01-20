@@ -4,7 +4,7 @@
 - TOI 
   - 台灣國際資訊奧林匹亞競賽 Taiwan Olympiad in Informatics
   - TOIP
-    - 不知道是什麼，和 TOI 有關嗎?
+    - TOI 練習賽
 
 - IOI
   - International Olympiad in Informatics 國際資訊奧林匹亞競賽
