@@ -19,7 +19,7 @@ while len(arr) > 1:
     for i in range(1, len(arr), 2):
         mul_a, mul_b = mul(*data[arr[i - 1]][:2]), mul(*data[arr[i]][:2])
 
-        if mul_a > mul_b:
+        if mul_a >= mul_b:
             data[arr[i - 1]][0] += mul_b // (2 * data[arr[i - 1]][1])
             data[arr[i - 1]][1] += mul_b // (2 * data[arr[i - 1]][0])
             data[arr[i]][0] += data[arr[i]][0] // 2
