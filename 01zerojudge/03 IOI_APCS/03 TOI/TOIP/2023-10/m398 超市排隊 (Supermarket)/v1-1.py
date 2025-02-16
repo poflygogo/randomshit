@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 # python 3.12
 # ZeroJudge m398. 超市排隊 (Supermarket)
-# 2023-11 TOI 練習賽 新手組 第三題
+# 2023-10 TOI 練習賽 新手組 第三題
 
 
 arr = tuple(map(int, input().split()))
