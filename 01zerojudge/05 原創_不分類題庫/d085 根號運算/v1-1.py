@@ -28,7 +28,7 @@ def sqrt(n):
     while n % 3 == 0:
         n //= 3
         factors[3] += 1
-    for i in range(5, int(n ** 0.5) + 1, 6):
+    for i in range(5, int(n ** 0.5) + 1, 6):    # ......廣義來說，這裡還是用了 math.sqrt
         for j in (i, i + 2):
             while n % j == 0:
                 n //= j
