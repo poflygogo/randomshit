@@ -44,6 +44,6 @@
 ## link
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 944 題 (請叫我水題王)
+  - 目前 AC 951 題 (請叫我水題王)
 - leetcode
   - 連結: https://leetcode.com/
