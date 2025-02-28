@@ -3,4 +3,7 @@
 .vscode     # vscode
 
 # vscode 擴充插件
-**/.cph/**  # Competitive Programming Helper (cph) 的暫存檔
+**/.cph/**
+
+# pycharm things
+**/.idea/**
