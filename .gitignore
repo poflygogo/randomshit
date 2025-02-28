@@ -1,2 +1,6 @@
-.idea
-.vscode
+# IDE 設定檔
+.idea       # pycharm
+.vscode     # vscode
+
+# vscode 擴充插件
+**/.cph/**  # Competitive Programming Helper (cph) 的暫存檔
