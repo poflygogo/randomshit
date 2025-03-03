@@ -13,3 +13,7 @@
 - zip()
 - sum()
 - list comprehension
+
+### v3
+
+對語法更熟悉後，回頭再寫這題一次
