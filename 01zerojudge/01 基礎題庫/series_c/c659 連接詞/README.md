@@ -11,3 +11,9 @@ v1 AC(18ms, 3.3MB)
 
 v2 AC(18ms, 3.3MB)
 - 改用`srting.join()`修改字串
+
+v3
+- 使用 unpack 的兩行解
+
+v4
+- 使用 `lambda` 的一行解

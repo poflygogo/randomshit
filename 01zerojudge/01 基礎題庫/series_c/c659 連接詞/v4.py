@@ -1,0 +1,1 @@
+(lambda x: print(f' {x[0]} '.join(x[1:])))(input().split())

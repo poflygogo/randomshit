@@ -10,7 +10,7 @@ for line in stdin:
     a, b = map(int, line.rstrip().split())
     numerate, a = divmod(a, b)
     result = []
-    while b not in (0, 1) and a != 0:
+    while a != 0:
         t, b = divmod(b, a)
         a, b = b, a
         result.append(t)
