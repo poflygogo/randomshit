@@ -29,20 +29,20 @@ def generate_problem():
                start=0,
                end=5)
     
-    # 保證 90% 的測資 <= 50
-    setup_file(token=random.sample(range(11, 51), 18 - 5),
+    # 保證 80% 的測資 <= 50
+    setup_file(token=random.sample(range(11, 51), 3),
                start=5,
-               end=18)
+               end=8)
     
-    # 第 19 筆測資的範圍為 50 < n < 100
+    # 第 9 筆測資的範圍為 50 < n < 100
     setup_file(token=[random.randint(51, 99)],
-               start=18,
-               end=19)
+               start=8,
+               end=9)
     
-    # 第 20 筆的測資固定為 100
+    # 第 10 筆的測資固定為 100
     setup_file(token=[100],
-               start=19,
-               end=20)
+               start=9,
+               end=10)
 
 
 if __name__ == '__main__':
