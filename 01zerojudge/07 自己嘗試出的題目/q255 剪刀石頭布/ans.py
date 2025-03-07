@@ -3,6 +3,7 @@
 # ZeroJudge q255. 剪刀石頭布 - 數手指
 
 
+# 還有點問題待修正
 n = int(input())
 for t in range(1, n + 1):
     a, b = map(int, input().split())
