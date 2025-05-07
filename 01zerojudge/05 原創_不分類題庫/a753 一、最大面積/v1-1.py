@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 # python 3.12
 # ZeroJudge a753. 一、最大面積
+# 102學年度板橋高中校內資訊學科能力競賽
 
 
 def find_max_area(max_row: int, max_col: int, graph: list):
