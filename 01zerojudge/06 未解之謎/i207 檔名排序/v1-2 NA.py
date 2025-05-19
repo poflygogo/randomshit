@@ -5,14 +5,13 @@
 
 import re
 
-
 def my_natsort_rule(s):
     temp = re.findall(r'\d+|\D+', s)
     for i in range(len(temp)):
         if temp[i].isdigit():
             temp[i] = (int(temp[i]), temp[i])
         else:
-            temp[i] = temp[i].upper()
+            temp[i] = (float('inf'), temp[i].upper())
     return tuple(temp)
         
 

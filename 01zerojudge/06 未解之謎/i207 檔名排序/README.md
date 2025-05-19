@@ -16,3 +16,8 @@ Traceback (most recent call last):
     data.sort(key=pattern)
 TypeError: '<' not supported between instances of 'tuple' and 'str'
 ```
+
+### v1-2 NA(score: 80%)
+
+- 修正 TypeError 的問題，傳遞純字串時，會以 tuple 的形式傳遞，並使用 `float('inf')` 確保字串永遠排序在數字後
+- 尚未解決檔案名稱帶空格時的排序方式。(出現這種格式時["file01", "file 01"]，有空格的在前["file 01", "file01"])

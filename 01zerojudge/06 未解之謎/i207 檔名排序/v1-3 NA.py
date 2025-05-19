@@ -3,8 +3,20 @@
 # ZeroJudge i207. 檔名排序
 
 
-import re
+# ---------------------------------------------------
 
+import sys
+import io
+Q = """2
+f 1234 g 1333
+f 12"""
+sys.stdin = io.StringIO(Q.strip())
+
+# ---------------------------------------------------
+
+
+
+import re
 
 def my_natsort_rule(s):
     temp = re.findall(r'\d+|\D+', s)
@@ -12,7 +24,7 @@ def my_natsort_rule(s):
         if temp[i].isdigit():
             temp[i] = (int(temp[i]), temp[i])
         else:
-            temp[i] = temp[i].upper()
+            temp[i] = (float('inf'), temp[i].upper() + '  ' * (temp[i][-1] != ' '))
     return tuple(temp)
         
 
