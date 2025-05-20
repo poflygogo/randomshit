@@ -1,5 +1,11 @@
 ## 簡介
-從零開始自學 python 中，這裡存放一些我學習過程中寫出來的東西
+從零開始自學 python 中，這裡存放一些我學習過程中寫出來的東西，也希望能幫助到其他正在學習 python 的人。
+
+如果需要找特定題目的解答，請善用搜尋功能
+
+![alt text](/05%20misc/image%20for%20readme%2001.png)
+
+如果有任何疑問都可以利用 discussion 說。
 
 ## 使用的工具
 
@@ -44,6 +50,6 @@
 ## link
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 1012 題 (請叫我水題王)
+  - 目前 AC 1065 題 (請叫我水題王)
 - leetcode
   - 連結: https://leetcode.com/
