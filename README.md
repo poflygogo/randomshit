@@ -1,4 +1,7 @@
+#
+
 ## 簡介
+
 從零開始自學 python 中，這裡存放一些我學習過程中寫出來的東西，也希望能幫助到其他正在學習 python 的人。
 
 如果需要找特定題目的解答，請善用搜尋功能
@@ -12,6 +15,7 @@
 ### Python 3.12
 
 ### IDE
+
 - PyCharm Community Edition 2024.1.4
 - Visual Studio Code
 - Notepad++
@@ -25,31 +29,34 @@
 > Notepad++ 則是比 VScode 更輕量級的工具，如果不需要太多額外功能的話，Notepad++ 是不錯的選擇
 
 ### git
+
 - git
 - GitHub
 - GitHub Desktop
 
 ### 線上展示/debug code
+
 - GBD online
 - Gist
 - ideone
 - [Online Compiler, Visual Debugger, and AI Tutor for Python, Java, C, C++, and JavaScript](https://pythontutor.com/)
 
-> 特別推薦 GBD online 和 ideone，可以用來輸入多筆資料，不需要透過終端機一行一行慢慢輸入
-
-> Online Compiler 可以用視覺化的方式查看程式執行狀態，很適合用來 debug 或那些檢視看不懂的程式
+> 特別推薦 GBD online 和 ideone，可以用來輸入多筆資料，不需要透過終端機一行一行慢慢輸入。<br>
+> Online Compiler 可以用視覺化的方式查看程式執行狀態，很適合用來 debug 或那些檢視看不懂的程式。
 
 ### 其他
+
 - draw.io-24.7.5
-    - 用於繪製流程圖
+  - 用於繪製流程圖
 - Snipaste
-    - 這樣我才不需要一直 alt + tab......
+  - 這樣我才不需要一直 alt + tab......
 - Notion
-    - 用於整理筆記
+  - 用於整理筆記
 
 ## link
+
 - zerojudge
   - 連結: https://zerojudge.tw/
-  - 目前 AC 1065 題 (請叫我水題王)
+  - 目前 AC 1105 題 (請叫我水題王)
 - leetcode
   - 連結: https://leetcode.com/
