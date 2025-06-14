@@ -7,3 +7,6 @@
 
 # pycharm things
 **/.idea/**
+
+# vscode things
+.vscode/settings.json
