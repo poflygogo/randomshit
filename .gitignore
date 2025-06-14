@@ -1,6 +1,6 @@
 # IDE 設定檔
 .idea       # pycharm
-.vscode     # vscode
+**/.vscode/**     # vscode
 
 # vscode 擴充插件
 **/.cph/**
