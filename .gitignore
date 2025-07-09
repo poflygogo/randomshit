@@ -10,3 +10,8 @@
 
 # vscode things
 .vscode/settings.json
+
+# unit test thing
+__init__.py
+**/test/**
+test.py
