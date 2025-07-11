@@ -1,6 +1,7 @@
 # IDE 設定檔
-.idea       # pycharm
-**/.vscode/**     # vscode
+.idea
+**/.vscode/**
+.aiexclude
 
 # vscode 擴充插件
 **/.cph/**
@@ -15,3 +16,4 @@
 __init__.py
 **/test/**
 test.py
+/utils
