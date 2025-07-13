@@ -17,3 +17,5 @@ __init__.py
 **/test/**
 test.py
 /utils
+*.in
+*.out
