@@ -19,3 +19,4 @@ test.py
 /utils
 *.in
 *.out
+__pycache__
