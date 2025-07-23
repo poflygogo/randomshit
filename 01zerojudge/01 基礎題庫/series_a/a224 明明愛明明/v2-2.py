@@ -8,4 +8,4 @@ while True:
     for i in alpha:
         if data.count(i) % 2 != 0:
             odd += 1
-    print('yes !' if odd <= 1 else 'no...')
+    print("yes !" if odd <= 1 else "no...")

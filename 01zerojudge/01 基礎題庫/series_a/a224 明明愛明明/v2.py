@@ -1,6 +1,8 @@
 while True:
-    try:text = input().lower()
-    except EOFError:break
+    try:
+        text = input().lower()
+    except EOFError:
+        break
     check = [i for i in text if i.isalpha()]
     check_set = set(check)
     count_odd = 0
