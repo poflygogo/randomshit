@@ -41,3 +41,6 @@ ZeroDivisionError: division by zero
 
 ### v1-4-2 NA(score:75%)
 - 調整資料讀取的方式
+
+### v2-1 AC(15ms, 5MB)
+- 再次調整讀取方式
