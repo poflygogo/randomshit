@@ -10,6 +10,10 @@
 
 如果有任何疑問都可以利用 discussion 說。
 
+前陣子開始學習 `c++`，如果有人需要 `c++` 版的程式碼可前往另一個倉庫: [randomBeginnerCppCode](https://github.com/poflygogo/randomBeginnerCppCode)，但相對的程式碼就比較少，因為是比較晚才學的。
+
+這邊也會放一點點的 `c++` 程式碼，但主要以非 zerojudge 的平台為主，且不多就是了。
+
 ## 使用的工具
 
 ### Python 3.12
