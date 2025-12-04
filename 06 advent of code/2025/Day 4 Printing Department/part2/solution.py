@@ -63,7 +63,7 @@ class Solution:
                 continue
             if self.graph[nr][nc] == "@":
                 cnt += 1
-        return cnt < 4
+        return cnt < 4  # return true if near by is less than 4
 
     def print_graph(self):
         """print the graph(for debug)"""
