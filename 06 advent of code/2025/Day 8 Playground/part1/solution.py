@@ -33,6 +33,8 @@ class Link:
 
 
 class Solution:
+    # I used a heap because I didn't want to store a very large array.
+    # I'm aiming to save some memory (though this isn't strictly necessary).
     def __init__(self, input_file: TextIO, max_link: int = 1000):
         self.all_nodes: list[Node] = []
         self.links: list[Link] = []  # max_heap
